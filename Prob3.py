@@ -2,6 +2,7 @@
 # Name: Reuben Baltazar
 # Collaborators: N
 # Estimate time spent (hrs): 3
+#GenAI Transcript: How to update score? 
 ########################################
 
 from pgl import GWindow, GRect, GLabel, GLine
