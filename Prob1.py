@@ -1,7 +1,7 @@
 ############################################################
-# Name:
-# Name(s) of anyone worked with:
-# Est time spent (hr):
+# Name: Reuben Baltazar
+# Name(s) of anyone worked with: N
+# Est time spent (hr): 4
 ############################################################
 
 from pgl import GWindow, GRect, GOval, GLine, GLabel
