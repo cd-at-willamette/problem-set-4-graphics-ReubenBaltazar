@@ -19,22 +19,23 @@ def draw_pyramid():
 
     gw = GWindow(WIDTH, HEIGHT)
 
+
     # You got it from here
+    window_width = gw.get_width()
+    window_height = gw.get_height()
 
+    pyramid_height = BRICK_HEIGHT * (BRICKS_IN_BASE)
+    start_y = (window_height - pyramid_height) // 2 + pyramid_height - BRICK_HEIGHT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    for row in range(BRICKS_IN_BASE):
+        bricks_in_row = BRICKS_IN_BASE - row
+        start_x = (window_width - bricks_in_row * BRICK_WIDTH) // 2
+        
+        for brick in range(bricks_in_row):
+            brick_x = start_x + brick * BRICK_WIDTH
+            brick_y = start_y - row * BRICK_HEIGHT
+            brick_rect = GRect(brick_x, brick_y, BRICK_WIDTH, BRICK_HEIGHT)
+            gw.add(brick_rect)
 
 
 
