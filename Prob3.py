@@ -1,7 +1,7 @@
 ########################################
-# Name:
-# Collaborators:
-# Estimate time spent (hrs):
+# Name: Reuben Baltazar
+# Collaborators: N
+# Estimate time spent (hrs): 3
 ########################################
 
 from pgl import GWindow, GRect, GLabel, GLine
